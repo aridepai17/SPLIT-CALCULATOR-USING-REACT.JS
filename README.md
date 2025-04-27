@@ -26,3 +26,7 @@ Designed with a clean and responsive user interface for smooth user experience.
 ## Demo
 - **Live App**: [https://splitcalculatorusing-reactjs.vercel.app/](https://splitcalculatorusing-reactjs.vercel.app/)
 - **Deployment**: Powered by Vercel
+
+- ## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
