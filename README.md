@@ -1,4 +1,4 @@
-# Split Calculator
+# SPLIT CALCULATOR
 Split Calculator is a simple and interactive tool built with React.js that allows users to calculate how much each person should pay when splitting a bill, including a customizable tip percentage.  
 It provides real-time updates as users adjust the bill total, tip percentage, and number of people splitting the bill.  
 Designed with a clean and responsive user interface for smooth user experience.
@@ -24,3 +24,5 @@ Designed with a clean and responsive user interface for smooth user experience.
 - Yarn
 
 ## Demo
+- **Live App**: [https://splitcalculatorusing-reactjs.vercel.app/](https://splitcalculatorusing-reactjs.vercel.app/)
+- **Deployment**: Powered by Vercel
