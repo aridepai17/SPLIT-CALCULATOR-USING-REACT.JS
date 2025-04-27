@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+body {
+  background: #001122;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0;
+  overflow-x: hidden; /* hide horizontal scrollbar */
+  min-height: 100vh; /* full height */
+  box-sizing: border-box;
+  font-family: 'Press Start 2P';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 400px; /* <-- restrict overall width */
+  margin: 0 auto; /* center */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input[type="text"] {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px 14px;
+  width: 100%; /* full width inside container */
+  color: #ffffff;
+  font-size: 1.2rem;
+  outline: none;
+  box-sizing: border-box; /* include padding inside width */
+  font-family: 'Press Start 2P';
+}
+
+input[type="text"]:focus {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.summary {
+  background: #158;
+  padding: 15px;
+  border-radius: 12px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.split-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.split-control span {
+  font-size: 1rem;
+}
+
+.split button {
+  border-radius: 50%;
+  border: none;
+  width: 32px;
+  height: 32px;
+  background: #38d;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.split button:hover {
+  background: #2a6edb;
+}
+
+.summary label {
+  line-height: 1rem;
+}
+
+.result {
+  text-align: right;
+  font-weight: bold;
 }
