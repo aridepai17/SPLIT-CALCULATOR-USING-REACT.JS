@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# SPLIT-CALCULATOR-USING-REACT.JS
+Split Calculator is a simple web app that helps you easily divide a bill among multiple people, including a customizable tip percentage. Built using React and styled with a retro pixel-art theme, it offers a clean, responsive, and user-friendly interface. Perfect for quick group payments at restaurants, cafes, or parties!
+>>>>>>> fd7cd39c54a078923d0fa86d128c859e141b976c
