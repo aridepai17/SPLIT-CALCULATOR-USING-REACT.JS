@@ -24,7 +24,7 @@ Designed with a clean and responsive user interface for smooth user experience.
 - Yarn
 
 ## Demo
-- **Live App**: [https://splitcalculatorusing-reactjs.vercel.app/](splitcalculatorusing-reactjs.vercel.app/)
+- **Live App**: [Split Calculator](https://splitcalculatorusing-reactjs.vercel.app/)
 - **Deployment**: Powered by Vercel
 
 - ## License
