@@ -9,6 +9,15 @@ Designed with a clean and responsive user interface for smooth user experience.
 - Instant real-time calculation of per-person cost.
 - Minimalistic, responsive, and user-friendly design.
 
+## Screenshots
+
+<!-- First image -->
+<img src="productpics/pic1.png" alt="App Screenshot 1" style="display:block; margin-bottom: 20px;">
+
+<!-- Second image -->
+<img src="productpics/pic2.png" alt="App Screenshot 2">
+
+
 ## Tech Stack
 - React.js
 - CSS3
