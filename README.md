@@ -19,9 +19,11 @@ Designed with a clean and responsive user interface for smooth user experience.
 
 
 ## Tech Stack
-- React.js
-- CSS3
-- Yarn
+- **React.js** - JavaScript library for building user interfaces.
+- **CSS3** - Styling the application with modern, responsive design.
+- **Yarn** - Package manager for installing and managing dependencies.
+- **HTML5** - Structuring the frontend elements.
+- **Vercel** - For seamless deployment and hosting.
 
 ## Demo
 - **Live App**: [Split Calculator](https://splitcalculatorusing-reactjs.vercel.app/)
